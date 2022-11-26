@@ -1,5 +1,5 @@
 # Input: observed data
-# Output: weighted pseudo entries with start and stop time
+# Output: weighted pseudo entries with start and stop time for competing risk data with time-dependent covariates to run in glmnet
 FG.Surv_timedependent=function(surv,cause, Z1, Z2, cov.change, id = 1:nrow(surv))
 {
   n=nrow(surv)
