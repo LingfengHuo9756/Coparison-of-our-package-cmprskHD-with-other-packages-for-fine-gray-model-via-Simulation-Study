@@ -139,7 +139,7 @@ for(j in 1:n_num)
     Time1 <- unlist(lapply(a, function(x) x$toc - x$tic))
     Time[[j]][i,1]=Time1
     
-    # glmnet
+    ## glmnet
     # Time1<-benchmark(glmnet=glmnet_FG(cov,Y,cause),replications=1)
     tic.clearlog()
     tic()
