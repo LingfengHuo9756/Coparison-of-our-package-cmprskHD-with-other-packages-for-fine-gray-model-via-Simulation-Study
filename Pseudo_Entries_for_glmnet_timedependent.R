@@ -1,5 +1,5 @@
 # Input: observed data
-# Output: IPW survival data
+# Output: weighted pseudo entries with start and stop time
 FG.Surv_timedependent=function(surv,cause, Z1, Z2, cov.change, id = 1:nrow(surv))
 {
   n=nrow(surv)
