@@ -4,7 +4,7 @@
 # ---------------------------------------------------------------------------
 
 # Input: observed data
-# Output: IPW survival data for competing risk data to run in glmnet
+# Output: weighted pseduo entries for competing risk data to run in glmnet
 FG.Surv=function(surv,cause, Z, id = 1:nrow(surv))
 {
   n=nrow(surv)
