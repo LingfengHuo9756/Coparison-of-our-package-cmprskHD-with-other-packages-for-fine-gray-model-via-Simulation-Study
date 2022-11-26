@@ -1,5 +1,4 @@
 library(fastcmprsk)
-# cmprskHD is our package. Since the package is my collaborated work with Dr. Jue Hou, it is inappropriate to upload it to my Github. If you want to use it, please email me via huo00030@umn.edu. I can send it to you under Dr. Jue Hou's consent. 
 library(cmprskHD)
 library(cmprsk)
 library(crrp)
